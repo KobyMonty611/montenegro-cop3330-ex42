@@ -1,0 +1,20 @@
+@startuml
+
+'Formatting of the header will happen here'
+'Calls to ParsingDataFile in order to print'
+class App
+{
+    +void main()
+}
+
+'ParsingDataFile performs the output of the input file'
+class ParsingDataFile
+{
+    'Function'
+    +void printInfo()
+}
+
+App o--> ParsingDataFile
+
+
+@enduml
